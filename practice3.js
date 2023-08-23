@@ -1,5 +1,5 @@
 
-truncate_string = function (string, length) 
+function truncate_string (string, length) 
 {
     if ((string.constructor === String) && (length>0)) 
     {
