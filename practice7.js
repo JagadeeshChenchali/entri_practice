@@ -1,6 +1,6 @@
-function capitalize (string)
+function Uncapitalize (string)
   {
     return string.charAt(0).toLowerCase() + string.slice(1);
   }
       
-   console.log(capitalize('Js string exercises'));
+   console.log(Uncapitalize('Js string exercises'));
