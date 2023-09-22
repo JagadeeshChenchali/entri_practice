@@ -1,11 +1,12 @@
 /*
-)Write a JavaScript function to extract a specified number of characters from a string.
+Write a JavaScript function to convert a string into abbreviated form.
 Test Data :
-console.log(truncate_string("Robin Singh",4));
-"Robi"
+console.log(abbrev_name("Robin Singh"));
+"Robin S."
 */
 
-function truncate_string(string,length){
-  return string.slice(0,length)
+function abbrev_name(string){
+  const str= string.split(" ");
+  return str[0]+" "+str[1][0]+str[1][1]+".";
 }
-console.log(truncate_string("JagadeeshChenchali",9));
+console.log(abbrev_name("Jagadeesh Chenchali"));
