@@ -1,9 +1,11 @@
 /*
-Write a function that takes a URL as input and extracts the domain name from it. For example, if the input is "https://www.example.com/page", the function should return "example.com".
+)Write a JavaScript function to extract a specified number of characters from a string.
+Test Data :
+console.log(truncate_string("Robin Singh",4));
+"Robi"
 */
 
-function extract(url,length){
- return  url.slice(12,length);
-    
+function truncate_string(string,length){
+  return string.slice(0,length)
 }
-console.log(extract("https://www.example.com/page",23));
+console.log(truncate_string("JagadeeshChenchali",9));
