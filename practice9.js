@@ -1,12 +1,12 @@
 /*
-Write a JavaScript function to convert a string into abbreviated form.
+Write a JavaScript function that hides email addresses to prevent unauthorized access.
 Test Data :
-console.log(abbrev_name("Robin Singh"));
-"Robin S."
+console.log(protect_email("robin_singh@example.com"));
+"robin...@example.com"
 */
 
-function abbrev_name(string){
-  const str= string.split(" ");
-  return str[0]+" "+str[1][0]+str[1][1]+".";
+function protect_email(email){
+const parts= email.split("@");
+return parts[0].slice(0,5)+"..."+"@"+parts[1];
 }
-console.log(abbrev_name("Jagadeesh Chenchali"));
+console.log(protect_email("jagadeeshch789@gmail.com"));
