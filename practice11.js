@@ -12,12 +12,11 @@ console.log(captilize("js string exercises"));
 */
 
 // Captrilize first letter of every word in the sentence.
-/*function captilize(string) {
-    const parts= string.split(" ");
-    return parts.maxLength;
-}*/
-
-const string= "js string exercises";
+function captilize(string) {
 const parts= string.split(" ");
-const count= parts.length;
-console.log(count);
+for(i=0;i<parts.length;i++){
+parts[i]=parts[i][0].toUpperCase()+parts[i].slice(1);
+}
+return parts.join(" ");
+}
+console.log(captilize("js string exercises"));
