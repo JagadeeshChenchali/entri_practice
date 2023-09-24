@@ -6,6 +6,12 @@ discount. If both conditions are met, return "Discounted price," otherwise retur
 price."
 */
 
-function calculateTicketPrice(num,boolean){
-    
+function calculateTicketPrice(age,id){
+    if (age<=18 || id===true){
+        console.log("Discounted price")
+    }
+    else{
+        console.log("Regular price")
+    }
 }
+console.log(calculateTicketPrice(10,false));
