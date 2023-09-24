@@ -6,15 +6,19 @@ return "Selected." If the choice is "red," return "Not available." For any other
 "Invalid choice."
 */
 
-function selectColor(color,available){
-    if ((color === "blue" || color === "green")&& available===true){
+function selectColor(color,isAvailable){
+if(isAvailable){
+    if (color === "blue" || color === "green"){
         console.log("selected")
     }
-    else if ((color === "red")&& available===true){
+    else if (color === "red"){
         console.log("not available");
     }
     else{
         console.log("Invalid choice")
     }
+}else{
+    console.log("Color not available")
 }
-console.log(selectColor("red",true));
+}
+console.log(selectColor("black",true));
