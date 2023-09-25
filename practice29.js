@@ -10,4 +10,4 @@ function reverseString(string){
     }
     return reversed;
 }
-console.log(reverseString("hello"));
+console.log(reverseString("jagadeesh"));
