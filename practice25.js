@@ -7,8 +7,7 @@ loop.
 function sumOfNumbers(num){
     let n=0;
     for (i=1;i<=num;i++){
-        n+=i;
-    }
+        n+=i;}
     return n;
 }
 console.log(sumOfNumbers(5));
