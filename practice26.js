@@ -6,8 +6,7 @@ Write a program to calculate the factorial of a given number `n` using a `for` l
 function factorial(num){
     let f = 1;
     for (i=1; i<=num; i++){
-        f*=i;
-    }
+        f*=i;}
     return f;
 }
 console.log(factorial(5));
