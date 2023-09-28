@@ -4,6 +4,7 @@ Write a program to calculate the sum of natural numbers from 1 to `n` using a `f
 loop.
 */
 
+
 function sum(n){
     let s=0;
     for (i=1;i<=n;i++){
