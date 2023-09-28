@@ -17,8 +17,3 @@ console.log(multi(5));
     }
 }
 console.log(tables(2,20));*/
-
-/*const n = 5;
-for (let i = 1; i <= 10; i++) {
-  console.log(`${n} x ${i} = ${n * i}`);
-}*/
