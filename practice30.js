@@ -3,6 +3,18 @@ Prime Number Check
 Write a program to check if a given number `n` is prime using a `for` loop.*/
 
 function isPrime(n){
+   for (i=2;i<n;i++){
+      if (n%i===0){
+         return false;
+      }
+      else{
+         return true;
+      }
+   }
+}
+console.log(isPrime(11));
+
+/*function isPrime(n){
    let count=0;
    for (i=1;i<=n;i++){
       if (n%i==0){
@@ -16,7 +28,7 @@ function isPrime(n){
       console.log("NOt a prime number");
    }
 }
-console.log(isPrime(15));
+console.log(isPrime(15));*/
 
 /*function isPrime(number){
     let count = 0;
