@@ -1,12 +1,11 @@
 /*
-
+ Count Digits in a Number:
+ Write a program to count the number of digits in a given number `n` using a `for` 
+loop.
 */
 
-function solution(string){
-    let reverse="";
-    for (i=string.length-1;i>=0;i--){
-        reverse+=string[i];
-    }
-    return reverse;
+function count(n){
+    let s=n.length;
+    console.log(s);
 }
-console.log(solution("hello"));
+console.log(count("10"));
