@@ -4,7 +4,8 @@
 loop.
 */
 
-function countNumbers(n){
+
+/*function countNumbers(n){
     let count =0;
     if (n>=1) ++count;
     while(n/10 >=1){
@@ -13,7 +14,7 @@ function countNumbers(n){
     }
     return count;
 }
-console.log(countNumbers(222));
+console.log(countNumbers(222));*/
 
 /*function count(n){
     let s=n.length;
