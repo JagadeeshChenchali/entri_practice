@@ -13,4 +13,4 @@ function isLeapYear(year){
         console.log("Not a Leap Year")
     }
 }
-console.log(isLeapYear(2024));
+console.log(isLeapYear(2020));
